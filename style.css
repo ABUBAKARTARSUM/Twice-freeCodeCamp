@@ -1,0 +1,15 @@
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #bccaf0;
+  font-size: larger;
+  font-family: fantasy;
+  color: #355596;
+  text-shadow: 2px 2px 2px rgba(170, 163, 163, 3);
+}
+
+h2 {
+  text-shadow: 2px 2px 2px rgba(170, 163, 163, 3);
+}
+section {
+  padding-top: 5rem;
+}
