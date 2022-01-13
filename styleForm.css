@@ -1,0 +1,113 @@
+/* -------------------------
+import google fonts 'Nunito'
+---------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Bebas+Neue&family=Nunito&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Nunito', cursive;
+}
+header {
+    text-align: center;
+    color: white;
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+header h1#title, p#description {
+    text-shadow: 1px 1px 2px black;
+    line-height: 1.2em;
+}
+p#description {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 1.4em;
+}
+.container {
+    max-width: 700px;
+    width: 100%;
+    margin: 20px auto;
+    background: rgba(  27, 27, 50, 0.8);
+    border-radius: 3px;
+    box-shadow: 1px 1px 20px rgb(41, 41, 41);
+    padding: 50px;
+    position: relative;
+}
+.container form{
+    width: 100%;
+    color: white;
+}
+.container form label {
+    width: 250px;
+    margin-right: 10px;
+    font-size: 14px;
+    text-shadow: 1px 0 3px rgb(0, 0, 0);
+}
+.container form .inputfield {
+    display: flex;
+    margin-bottom: 15px;
+}
+.container form .inputfield {
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+.container form label {
+    font-size: 18px;
+}
+input[type="radio"] {
+    /* margin: 15px 8px; */
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+.ml {
+    margin-left: 8px;
+}
+.container form label.fs-large {
+    font-size: 20px;
+} 
+.container form .textarea {
+    width: 100%;
+    resize: none;
+    outline: none;
+    border: 1px solid #eee;
+    font-family: 'Nunito', cursive;
+    font-size: 15px;
+    padding: 8px 10px;
+    height: 125px;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    background: #198754;
+    padding: 15px 0;
+    border-radius: 3px;
+    margin-top: 1rem;
+    outline: none;
+}
+button {
+    color: white;
+    outline: none;
+    border: none;
+}
